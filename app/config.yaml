@@ -1,0 +1,10 @@
+
+ignore_file: .ignore
+ignore: [".ignore","favicon.ico","index.md"]
+author: emily
+timestamp: false
+
+cache:
+  debug: true 
+  dir: cache 
+  timeout: 86400

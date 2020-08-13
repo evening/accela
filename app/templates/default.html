@@ -1,0 +1,11 @@
+{% extends "base.html" %}{% block body %}
+<div id="container">
+    
+{% autoescape false %}{{ content }}{% endautoescape %}
+</div>
+{% if dirs %}
+<ul id="links">
+{% for dir in dirs %}<li><a href="{{request.path | deslash}}/{{dir[0]}}{{style}}">{{ dir[0] }}</a> {{ dir[1] }}</li>
+{% endfor %}</ul>
+{% endif %}{% if path %}<span id="up">[<a href="{{request.path | parent}}{{style}}">up</a>]</span>{% endif %}
+{% endblock %}

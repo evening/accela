@@ -1,0 +1,92 @@
+body {
+    font-family: monospace;
+    max-width: 50em;
+    word-wrap: break-word;
+
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.pre,
+code {
+    white-space: pre-wrap;
+}
+
+.col2 {
+    columns: 2;
+}
+
+h1 {
+    font-size: 130%;
+}
+
+h2,
+h3 {
+    font-size: 100%;
+}
+
+h3,
+h4 {
+    padding-left: 1em;
+}
+
+h4 {
+    color: #707070;
+}
+
+table td {
+    padding: 0 1em;
+}
+
+blockquote {
+    margin: 0 0 0 1em;
+    padding-left: 1.5em;
+    border-left: 1.5px solid black;
+}
+
+#up {
+    font-size: small;
+    display: inline-block;
+}
+
+.footnote li p {
+    font-size: small;
+    margin: 0px;
+}
+
+.footnote li a.footnote-backref {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+q {
+    font-style: italic;
+}
+
+sup {
+    font-size: 0.8em;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    top: -0.5em;
+}
+
+*:focus {
+    outline: none;
+}
+
+::selection {
+    background: black;
+    opacity: 1.0;
+    color: white;
+}

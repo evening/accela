@@ -1,0 +1,5 @@
+gunicorn
+Flask==1.0
+markdown==3.2.2
+PyYAML==5.3
+flask_caching

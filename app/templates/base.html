@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>{{ request.path | deslash}}</title>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	{% if style=="?s=1" %} 
+	<link href="{{ url_for('static', filename='style_mono.css') }}" rel="stylesheet" type="text/css">
+	{% else %}
+	<link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+	{% endif %}
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="{{meta.get('author')}}">
+	<meta name="twitter:creator" content="{{meta.get('author')}}">
+	<meta property="og:image" content="{{ url_for('static', filename='favicon.ico') }}">
+	<meta property="og:url" content="{{request.base_url | deslash}}">
+	<meta property="og:title" content="{{meta.get('title')}}">
+	<meta property="og:description" content="{{ meta.get('description') }}">
+</head>
+<body>{% block body %}{% endblock %}
+<div id="blur1"></div>
+<div id="blur2"></div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    word-wrap: break-word;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    padding: 45px 50px;
+    max-width: 50em;
+    line-height: 1.45em;
+background: linear-gradient(328deg, #f5daea 30%, #CFDEF3 ) fixed;
+}
+
+
+h1 {
+    font-weight: normal;
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5em
+}
+
+h3,
+h4 {
+    font-size: 1.17em;
+    padding-left: 1em;
+}
+
+h4 {
+    color: #707070;
+}
+
+#container a {
+    color: black;
+    text-decoration: underline;
+}
+
+#container {
+    line-height: 28px;
+    font-size: 18px;
+}
+
+#container a:hover {
+    text-decoration: none;
+}
+
+#links a,
+#up a {
+    color: black;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+#links a:hover,
+#up a:hover {
+    text-decoration: none;
+    padding: 2px;
+    background-color: black;
+    color: white;
+}
+
+.pre,
+code {
+    white-space: pre-wrap;
+}
+
+.col2 {
+    columns: 2;
+}
+
+table td {
+    padding: 0 1em;
+}
+
+blockquote {
+    margin: 0 0 0 1em;
+    padding-left: 1.5em;
+    border-left: 1.5px solid black;
+}
+
+#up {
+    margin-top: 1.5em;
+    display: inline-block;
+}
+
+.footnote {
+    font-size: small;
+    margin: 0px;
+    line-height: 80%;
+}
+
+.footnote li a.footnote-backref {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+q {
+    font-style: italic;
+}
+
+sup {
+    font-size: 0.8em;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    top: -0.5em;
+}
+
+*:focus {
+    outline: none;
+}
+
+::selection {
+    background: #000;
+    opacity: 1.0;
+    color: #eee;
+}
