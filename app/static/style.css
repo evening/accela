@@ -19,6 +19,7 @@ background: linear-gradient(328deg, #f5daea 30%, #CFDEF3 ) fixed;
 h1 {
     font-weight: normal;
     font-size: 2em;
+    line-height: 1;
     padding-bottom: 30px;
 }
 
