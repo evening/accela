@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 html {
     height: 100%;
@@ -11,25 +12,16 @@ body {
     overflow-x: hidden;
     padding: 45px 50px;
     max-width: 50em;
-    line-height: 1.45em;
-background: linear-gradient(328deg, #f5daea 30%, #CFDEF3 ) fixed;
+    background: linear-gradient(328deg, #f5daea 30%, #CFDEF3 ) fixed;
 }
 
 
 h1 {
-    font-weight: normal;
-    font-size: 2em;
-    line-height: 1;
-    padding-bottom: 30px;
-}
-
-h2 {
-    font-size: 1.5em
+    margin-bottom: 30px;
 }
 
 h3,
 h4 {
-    font-size: 1.17em;
     padding-left: 1em;
 }
 
@@ -42,11 +34,6 @@ h4 {
     text-decoration: underline;
 }
 
-#container {
-    line-height: 28px;
-    font-size: 18px;
-}
-
 #container a:hover {
     text-decoration: none;
 }
@@ -54,20 +41,18 @@ h4 {
 #links a,
 #up a {
     color: black;
-    font-family: monospace;
-    font-size: 18px;
+    font-family: 'Inconsolata', monospace;
 }
 
 #links a:hover,
 #up a:hover {
     text-decoration: none;
-    padding: 2px;
-    background-color: black;
-    color: white;
 }
 
 .pre,
 code {
+    /* background: white; */
+    /* padding: 4px; */
     white-space: pre-wrap;
 }
 
@@ -80,7 +65,7 @@ table td {
 }
 
 blockquote {
-    margin: 0 0 0 1em;
+    margin: 0 0 0 0em;
     padding-left: 1.5em;
     border-left: 1.5px solid black;
 }
@@ -88,6 +73,10 @@ blockquote {
 #up {
     margin-top: 1.5em;
     display: inline-block;
+}
+
+p {
+    line-height: 1.5;
 }
 
 .footnote {
@@ -108,20 +97,8 @@ q {
     font-style: italic;
 }
 
-sup {
-    font-size: 0.8em;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-    top: -0.5em;
-}
-
-*:focus {
-    outline: none;
-}
-
 ::selection {
-    background: #000;
+    background: #fff;
     opacity: 1.0;
-    color: #eee;
+    color: #000;
 }
