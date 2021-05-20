@@ -1,8 +1,5 @@
 # accela
 
-![subpage](docs/img/demo.gif)
-
-
 basic directory-based blog. i wanted a website that could easily display text without requiring a database or extra scripts
 
 ## Config
